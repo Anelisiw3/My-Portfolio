@@ -16,7 +16,7 @@
 -**CSS**
 
 ## How to use 
--**Navigation**: Click on the navigation bar to move between sections(Home,About,Skills,Services,Contacts)
+-**Navigation**: Click on the navigation bar to move between sections (Home, About, Skills, Services, Contacts)
 
 ## Contributing
 I would like to contribute my portfolio , inorder for me to be considered for other job opportunities.
