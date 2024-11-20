@@ -67,17 +67,21 @@ h4{
 .container{
     display:flex;
     justify-content: flex-end;
+    margin-right: 280px;
+    margin-top: 100px;
     align-items: center;
     height: 300px;
 }
+
 .round-frame {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     overflow: hidden;
     border: 5px solid white;
-    float: right;
-    margin-left: 15px;
+    float: left;
+    margin-left: 24px;
+    
 }
  .round-frame img {
     width: 100%;
@@ -201,6 +205,10 @@ h5{
     background-color: transparent;
     border: 2px solid grey;
     cursor: pointer;
+}
+
+p{
+    text-align: center;
 }
 
 .skills{
