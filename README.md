@@ -1,12 +1,14 @@
  ## My portfolio
  
- Welcome to my portfolio! This is a personal website showcasing my background,skills,services and contacts.
+ Welcome to my portfolio! This is a personal website showcasing my background, skills, services and contacts.
 ## Features
 -**About Me**: Information about my self
 
 -**Skills**: Information about my soft and technical skills
 
--**Sercives**: Information about what I am rendering for now
+-**Services**: Information about what I am rendering for now
+
+-**Contact: Information about my contact details
 
 ## Technology used 
 -**HTML**
@@ -26,5 +28,6 @@ I would like to contribute my portfolio , inorder for me to be considered for ot
    4. Commit your changes
    5. Push to the branch
    6. Open a pull request
+      
 ## Contact
 **Email**: anelisiwe.mtati@capaciti.org.za
