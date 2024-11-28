@@ -8,7 +8,7 @@
 
 -**Services**: Information about what I am rendering for now
 
--**Contact: Information about my contact details
+-**Contact**: Information about my contact details
 
 ## Technology used 
 -**HTML**
