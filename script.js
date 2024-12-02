@@ -24,9 +24,18 @@ const chatBox = document.querySelector('.chatbox');
             
                 const botReplies = {
                     "hello": "Hi there! How can I assist you?",
-                    "about": " I'm a chatbot designed to help you with your portfolio website.",
-                    "services": "I can guide you through your services, skills, or anything related to your portfolio.",
-                    "contact": "You can reach out via the contact form or LinkedIn link on the page.",
+                    "hi": "Hi there! How can I assist you?",
+                    "who are you": "I am Anelisiwe Mtati , a junior web developer with a passion for coding",
+                    "tell us about yourself": "I am a Junior Developer with a passion for coding and a strong foundation in web development technologies, including HTML, CSS and JavaScript. Proficient in collaborating with teams to create user friendly applications and eager to learn new programming languages and frameworks.",
+                    "tell me about yourself": "I am a Junior Developer with a passion for coding and a strong foundation in web development technologies, including HTML, CSS and JavaScript. Proficient in collaborating with teams to create user friendly applications and eager to learn new programming languages and frameworks.",
+                    "what do you do": " I specialise in Web Development, including frontend, Debugging and Database Management",
+                    "what are your services": " Frontend Developer,Debugging and Testing , Database Management.",
+                    "what are the services that you render": " Frontend Developer,Debugging and Testing , Database Management.",
+                    "what are your skills": " html,css,JavaScript and Mysql.",
+                    "tell me about your skills": " Okay, (75%)html, (70%)css, (50%)JavaScript and (65%)Mysql.",
+                    "Do you have any skills": " Yes (75%)html, (70%)css, (50%)JavaScript and (65%)Mysql.", 
+                    "what is your professional goal": " My goal is to contribute to innovative projects while gaining practical experience and mastering modern frameworks and technologies.",
+                    "contact": "You can reach out via the contact form, LinkedIn link on the page.",
                     "default": "I'm sorry, I didn't understand that. Could you rephrase?",
                 };
             
@@ -47,5 +56,6 @@ const chatBox = document.querySelector('.chatbox');
                     chatMessage.classList.add('chat', type);
                     chatMessage.innerHTML = `<p>${message}</p>`;
                     chatBox.appendChild(chatMessage);
-                    chatBox.scrollTop = chatBox.scrollHeight; // Auto-scroll to the bottom
+                    chatBox.scrollTop = chatBox.scrollHeight; 
                 }
+                
