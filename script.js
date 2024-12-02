@@ -16,23 +16,36 @@ minimizeBtn.addEventListener('click', () => {
     chatbot.style.display = 'none';
 });
 
-// Handle Send Message
-sendBtn.addEventListener('click', () => {
-    const message = userInput.value.trim();
-    if (message) {
-        addMessage(message, 'outgoing');
-        userInput.value = ''; // Clear input
-        setTimeout(() => {
-            addMessage('Thank you for your message!', 'incoming');
-        }, 1000);
-    }
-});
-
-// Add Message to Chatbox
-function addMessage(message, type) {
-    const li = document.createElement('li');
-    li.className = `chat ${type}`;
-    li.innerHTML = `<p>${message}</p>`;
-    chatbox.appendChild(li);
-    chatbox.scrollTop = chatbox.scrollHeight; // Scroll to bottom
-}
+const chatBox = document.querySelector('.chatbox');
+                const inputDiv = document.createElement('div');
+                inputDiv.classList.add('input-container');
+                document.querySelector('.chatbot').appendChild(inputDiv);
+            
+            
+                const botReplies = {
+                    "hello": "Hi there! How can I assist you?",
+                    "about": " I'm a chatbot designed to help you with your portfolio website.",
+                    "services": "I can guide you through your services, skills, or anything related to your portfolio.",
+                    "contact": "You can reach out via the contact form or LinkedIn link on the page.",
+                    "default": "I'm sorry, I didn't understand that. Could you rephrase?",
+                };
+            
+                sendBtn.addEventListener('click', () => {
+                    const userText = userInput.value.trim();
+                    if (userText) {
+                        addChatMessage(userText, 'outgoing');
+                        setTimeout(() => {
+                            const botResponse = botReplies[userText.toLowerCase()] || botReplies["default"];
+                            addChatMessage(botResponse, 'incoming');
+                        }, 1000);
+                    }
+                    userInput.value = '';
+                });
+            
+                function addChatMessage(message, type) {
+                    const chatMessage = document.createElement('li');
+                    chatMessage.classList.add('chat', type);
+                    chatMessage.innerHTML = `<p>${message}</p>`;
+                    chatBox.appendChild(chatMessage);
+                    chatBox.scrollTop = chatBox.scrollHeight; // Auto-scroll to the bottom
+                }

@@ -557,25 +557,40 @@ footer{
 /* Input Area */
 .input-area {
     display: flex;
-    border-top: 1px solid #ddd;
+    align-items: center;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ccc;  
 }
 
 .input-area input {
     flex: 1;
     padding: 10px;
-    border: none;
+    border: 1px solid #ccc;
+    border-radius: 25px;
     outline: none;
 }
 
 .input-area button {
-    background: purple;
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
+    
+        margin-left: 10px;
+        padding: 10px 20px;
+        background-color: purple;
+        color: white;
+        border: none;
+        border-radius: 25px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
 }
 
 /*chatbot end*/
+
+
+
+.send-btn:hover {
+    background-color: darkorange;
+}
+
 @media(max-width: 700px){
     .footernav ul{
         flex-direction: column;
