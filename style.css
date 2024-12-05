@@ -13,7 +13,7 @@
     background-size: cover;
     background-position: center;
 }
-nav{
+/* nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,6 +30,9 @@ nav{
 span{
     color: purple; 
 }
+nav ul {
+    display: flex;
+}
 nav ul li{
     list-style-type: none;
     display: inline-block;
@@ -44,6 +47,54 @@ nav ul li a{
 nav ul li a:hover{
 color: purple;
 transition: .4s;
+}
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+} */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo {
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span {
+    color: purple;
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover {
+    color: purple;
+    transition: .4s;
+}
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
 }
 .content{
     position: absolute;
@@ -599,5 +650,24 @@ footer{
         width:100%;
         text-align: center;
         margin: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        background-color: #333;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    nav ul.active {
+        display: flex;
+    }
+    .menu-toggle {
+        display: block;
     }
 }

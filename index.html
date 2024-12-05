@@ -12,7 +12,10 @@
  <div class="hero">
     <nav>
         <h2 class="logo"> Portfo<span>lio</span></h2> 
-      <ul>
+        <div class="menu-toggle" id="menu-toggle">
+            &#9776; <!-- Unicode for hamburger icon -->
+        </div>
+        <ul id="nav-links">
             <li><a href="#">HOME</a></li>
             <li><a href="#about">ABOUT</a></li>
             <li><a href="#service">SERVICES</a></li>
@@ -20,6 +23,7 @@
             <li><a href="#contact">CONTACT</a></li>
         </ul>
     </nav>
+    
     <div class="container" >
     <div class="round-frame">
         <img src="Pic/mypic.jpg" alt="profile picture" >
@@ -195,5 +199,11 @@
             <p> Copyright &copy; 2024 Designed by <span class="designer">Anelisiwe Mtati</span>
            </div>
     </footer>
+    <input type="checkbox" class="menu-toggle" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
     </body>
 </html>
