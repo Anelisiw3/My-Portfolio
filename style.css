@@ -1,59 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
 
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
-.hero{
+
+.hero {
     height: 100vh;
     width: 100%;
     background-image: url(Pic/R1.png);
     background-size: cover;
     background-position: center;
 }
-/* nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 45px;
-    padding-left: 8%;
-    padding-right: 8%;
-}
-.logo{
-    color: white;
-    font-size: 30px;
-    letter-spacing: 1px;
-    cursor: pointer;
-}
-span{
-    color: purple; 
-}
-nav ul {
-    display: flex;
-}
-nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px 25px;
-}
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: capitalize;
-}
-nav ul li a:hover{
-color: purple;
-transition: .4s;
-}
-.menu-toggle {
-    display: none;
-    font-size: 1.5rem;
-    cursor: pointer;
-    color: white;
-} */
+
 
 nav {
     display: flex;
@@ -63,62 +24,74 @@ nav {
     padding-left: 8%;
     padding-right: 8%;
 }
+
 .logo {
     color: white;
     font-size: 30px;
     letter-spacing: 1px;
     cursor: pointer;
 }
+
 span {
     color: purple;
 }
+
 nav ul {
     display: flex;
 }
+
 nav ul li {
     list-style-type: none;
     display: inline-block;
     padding: 10px 25px;
 }
+
 nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
     text-transform: capitalize;
 }
+
 nav ul li a:hover {
     color: purple;
     transition: .4s;
 }
+
 .menu-toggle {
     display: none;
     font-size: 1.5rem;
     cursor: pointer;
     color: white;
 }
-.content{
+
+.content {
     position: absolute;
     top: 50%;
     left: 8%;
     transform: translateY(-50);
 }
-h1{
+
+h1 {
     color: white;
     margin: 20px 0px 20px;
-    font-size: 50px; 
+    font-size: 50px;
 }
-h3{
+
+h3 {
     color: white;
     font-size: 25px;
     margin-bottom: 50px;
 }
-h4{
+
+h4 {
     color: white;
     letter-spacing: 2px;
     font-size: 20px;
 }
-.container{
-    display:flex;
+
+.container {
+    display: flex;
     justify-content: flex-end;
     margin-right: 280px;
     margin-top: 100px;
@@ -134,14 +107,16 @@ h4{
     border: 5px solid white;
     float: left;
     margin-left: 24px;
-    
+
 }
- .round-frame img {
+
+.round-frame img {
     width: 100%;
-    height:100%;
+    height: 100%;
     object-fit: cover;
- }
- .content .button-one{
+}
+
+.content .button-one {
     background-color: orangered;
     color: white;
     text-decoration: none;
@@ -151,25 +126,29 @@ h4{
     border-radius: 30px;
     transition: .4s;
 }
-.content .button-one:hover{
+
+.content .button-one:hover {
     background-color: transparent;
     border: 2px solid grey;
     cursor: pointer;
 }
 
-.about{
+.about {
     width: 100%;
     padding: 100px 0px;
     background-image: url(Pic/backgroundimage.jpg);
 }
-.about img{
+
+.about img {
     height: auto;
     width: 430px;
 }
-.about-text{
+
+.about-text {
     width: 550px;
 }
-.main{
+
+.main {
     width: 1130px;
     max-width: 95%;
     margin: 0 auto;
@@ -177,20 +156,23 @@ h4{
     align-items: center;
     justify-content: space-around;
 }
-.about-text h2{
+
+.about-text h2 {
     color: white;
     font-size: 65px;
     text-transform: capitalize;
     margin-bottom: 20px;
 }
-.about-text h5{
+
+.about-text h5 {
     color: white;
     letter-spacing: 2px;
     font-size: 22px;
     margin-bottom: 25px;
     text-transform: capitalize;
 }
-.about-text p{
+
+.about-text p {
     color: black;
     letter-spacing: 1px;
     line-height: 28px;
@@ -198,59 +180,66 @@ h4{
     margin-bottom: 45px;
 }
 
-.service{
+.service {
     background-image: url(Pic/RO.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     padding: 100px 0px;
 }
-.title h2{
-color:white;
-font-size: 45px;
-width: 1130px;
-margin: 30px auto; 
-text-align: center;
+
+.title h2 {
+    color: white;
+    font-size: 45px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
 }
-.box{
+
+.box {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 400px;
 }
-.card{
+
+.card {
     height: 365px;
     width: 335px;
     padding: 20px 35px;
-    background: beige;  
+    background: beige;
     border-radius: 20px;
-    margin: 15px; 
-    position: relative; 
+    margin: 15px;
+    position: relative;
     overflow: hidden;
     text-align: center;
 }
-.card i{
+
+.card i {
     font-size: 50px;
     display: block;
     text-align: center;
     color: grey;
 }
-h5{
-    color: gray; 
+
+h5 {
+    color: gray;
     font-size: 23px;
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
-.pra p{
+
+.pra p {
     color: grey;
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
 }
 
-p{
+p {
     text-align: center;
 }
-.skills_section{
+
+.skills_section {
     width: 100%;
     height: 100vh;
     padding: 0px 13%;
@@ -260,37 +249,44 @@ p{
     justify-content: center;
     flex-direction: column;
 }
-.skills_head{
+
+.skills_head {
     width: 100%;
     margin-bottom: 100px;
     display: grid;
     place-items: center;
     text-align: center;
 }
-.skills_head h2{
+
+.skills_head h2 {
     font-size: 30px;
     margin-bottom: -5px;
 }
-.skills_head h2 span{
+
+.skills_head h2 span {
     color: #e74d06;
 }
-.skills_main{
+
+.skills_main {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 30px;
     grid-column-gap: 50px;
 }
-.skills_main .skill_bar .info{
+
+.skills_main .skill_bar .info {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:  0 10px;
+    padding: 0 10px;
 }
-.skill_bar .info p:nth-child(2){
+
+.skill_bar .info p:nth-child(2) {
     font-weight: 500;
 }
-.skill_bar .bar{
+
+.skill_bar .bar {
     width: 100%;
     height: 10px;
     background-color: rgba(0, 0, 0, 0.144);
@@ -298,86 +294,107 @@ p{
     margin-top: 5px;
     position: relative;
 }
-.skill_bar .bar span{
+
+.skill_bar .bar span {
     width: 50%;
     height: 100%;
     position: absolute;
     background-color: #e74d06;
     border-radius: 25px;
 }
-.skill_bar .bar .html{
+
+.skill_bar .bar .html {
     width: 75%;
     animation: html 2s;
 }
+
 @keyframes html {
-    0%{
+    0% {
         width: 0%;
-    }100%{
+    }
+
+    100% {
         width: 90%;
     }
 }
-.skill_bar .bar .css{
+
+.skill_bar .bar .css {
     width: 70%;
     animation: css 2s;
 }
+
 @keyframes css {
-    0%{
+    0% {
         width: 0%;
-    }100%{
+    }
+
+    100% {
         width: 85%;
     }
 }
-.skill_bar .bar .sql{
+
+.skill_bar .bar .sql {
     width: 65%;
     animation: sql 2s;
 }
+
 @keyframes sql {
-    0%{
+    0% {
         width: 0%;
-    }100%{
+    }
+
+    100% {
         width: 80%;
     }
 }
-.skill_bar .bar .js{
+
+.skill_bar .bar .js {
     width: 50%;
     animation: css 2s;
 }
+
 @keyframes js {
-    0%{
+    0% {
         width: 0%;
-    }100%{
+    }
+
+    100% {
         width: 80%;
     }
 }
 
 
-.contact-container{
+.contact-container {
     height: 100vh;
-    display:flex;
+    display: flex;
     align-items: center;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
 }
-.contact-left{
-    display:flex;
+
+.contact-left {
+    display: flex;
     flex-direction: column;
     align-items: start;
-    gap:20px; 
+    gap: 20px;
 }
-.contact-left-title h2{
+
+.contact-left-title h2 {
     font-weight: 600;
     color: purple;
     font-size: 40px;
     margin-bottom: 5px;
 }
-.contact-left-title hr{
+
+.contact-left-title hr {
     border: none;
     width: 120px;
     height: 5px;
-    background-color:black;
-    border-radius:10px;
+    background-color: black;
+    border-radius: 10px;
     margin-bottom: 20px;
 }
-.contact-inputs{
+
+.contact-inputs {
     width: 400px;
     height: 50px;
     border: none;
@@ -387,19 +404,23 @@ p{
     color: orangered;
     border-radius: 50px;
 }
-.contact-left textarea{
+
+.contact-left textarea {
     height: 140px;
     padding-top: 15px;
     border-radius: 20px;
 }
-.contact-inputs:focus{
+
+.contact-inputs:focus {
     border: 2px solid #ff994f;
 }
-.contact-inputs::placeholder{
+
+.contact-inputs::placeholder {
     color: gray;
 }
-.contact-left button{
-    display:flex;
+
+.contact-left button {
+    display: flex;
     align-items: center;
     padding: 12px 30px;
     color: purple;
@@ -409,22 +430,25 @@ p{
     cursor: pointer;
 
 }
-.contact-me{
+
+.contact-me {
     width: 100%;
     height: 290px;
-    background-color:dimgray;
+    background-color: dimgray;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
 }
-.contact-me p{
-    color:white;
+
+.contact-me p {
+    color: white;
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 25px;
 }
-.contact-me .button-two{
+
+.contact-me .button-two {
     background-color: orangered;
     color: white;
     text-decoration: none;
@@ -434,37 +458,45 @@ p{
     border-radius: 30px;
     transition: .4s;
 }
-.contact-me .button-two:hover{
+
+.contact-me .button-two:hover {
     background-color: transparent;
     border: 2px solid grey;
     cursor: pointer;
-}    
+}
+
 @media (min-width: 1042px) {
-    .content{
+    .content {
         max-width: 1200px;
         margin: 0 auto;
-    }  
-}
-@media (max-width:800px) {
-    .contact-inputs{
-        width:80vw;
     }
-   .contact-right{
-    display: none;
-   } 
 }
-footer{
-    background-color:orangered;
+
+@media (max-width:800px) {
+    .contact-inputs {
+        width: 80vw;
+    }
+
+    .contact-right {
+        display: none;
+    }
 }
-.footerContainer{
+
+footer {
+    background-color: orangered;
+}
+
+.footerContainer {
     width: 100%;
     padding: 70px 30px 20px;
 }
-.socialicons{
+
+.socialicons {
     display: flex;
     justify-content: center;
 }
-.socialicons a{
+
+.socialicons a {
     text-decoration: none;
     padding: 10px;
     background-color: whitesmoke;
@@ -472,29 +504,35 @@ footer{
     border-radius: 50%;
 
 }
-.socialicons a{
+
+.socialicons a {
     font: size 2px;
     color: black;
     opacity: 0.9;
 }
-.socialicons a:hover{
+
+.socialicons a:hover {
     background-color: black;
     transition: 0.5s;
 }
-.socialicons a:hover{
+
+.socialicons a:hover {
     color: white;
     transition: 0.5s;
 }
-.footernav{
+
+.footernav {
     margin: 10px 0;
 }
-.footernav ul{
-    display:flex;
+
+.footernav ul {
+    display: flex;
     justify-content: center;
-    list-style-type:none;
+    list-style-type: none;
 }
-.footernav ul li a{
-    color:white;
+
+.footernav ul li a {
+    color: white;
     margin: 20px;
     text-decoration: none;
     font-size: 1.3em;
@@ -502,27 +540,30 @@ footer{
     transition: 0.5s;
 
 }
-.footernav ul li a:hover{
+
+.footernav ul li a:hover {
     opacity: 1;
 }
-.footerbutton{
+
+.footerbutton {
     background-color: black;
     padding: 20px;
     text-align: center;
 }
 
-.footerbutton p{
+.footerbutton p {
     color: white;
 }
-.designer{
+
+.designer {
     opacity: 0.7;
     text-transform: uppercase;
-    letter-spacing: 1px ;
+    letter-spacing: 1px;
     font-weight: 400;
     margin: 0px 5px;
 }
 
-/*chatbot*/
+
 /* Chatbot Icon */
 .chatbot-icon {
     position: fixed;
@@ -552,7 +593,7 @@ footer{
     background: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    display: none; /* Initially hidden */
+    display: none;
     flex-direction: column;
     z-index: 999;
     overflow: hidden;
@@ -589,7 +630,8 @@ footer{
 }
 
 /* Chat Messages */
-.chat.incoming p, .chat.outgoing p {
+.chat.incoming p,
+.chat.outgoing p {
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -611,7 +653,7 @@ footer{
     align-items: center;
     padding: 10px;
     background-color: #f4f4f4;
-    border-top: 1px solid #ccc;  
+    border-top: 1px solid #ccc;
 }
 
 .input-area input {
@@ -623,31 +665,26 @@ footer{
 }
 
 .input-area button {
-    
-        margin-left: 10px;
-        padding: 10px 20px;
-        background-color: purple;
-        color: white;
-        border: none;
-        border-radius: 25px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
+
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 /*chatbot end*/
 
-
-
-.send-btn:hover {
-    background-color: darkorange;
-}
-
-@media(max-width: 700px){
-    .footernav ul{
+@media(max-width: 700px) {
+    .footernav ul {
         flex-direction: column;
     }
-    .footernav ul li{
-        width:100%;
+
+    .footernav ul li {
+        width: 100%;
         text-align: center;
         margin: 10px;
     }
@@ -664,10 +701,69 @@ footer{
         padding: 10px;
         border-radius: 5px;
     }
-    nav ul.active {
+
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: white;
+    border-radius: 3px;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .hamburger {
         display: flex;
     }
-    .menu-toggle {
-        display: block;
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        background: black;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 150px;
+        border-radius: 5px;
+        padding: 5px 0;
     }
+
+    nav ul li a {
+        padding: 5px 5px;
+    }
+
+    .menu-toggle:checked~ul {
+        display: flex;
+    }
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: purple; 
 }

@@ -1,190 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title> My Portfolio </title>
-        <link rel="stylesheet" href="style.css">
-        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=0"> 
-    </head>
+
+<head>
+    <title> My Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0">
+</head>
+
 <body>
- <div class="hero">
-    <nav>
-        <h2 class="logo"> Portfo<span>lio</span></h2> 
-        <div class="menu-toggle" id="menu-toggle">
-            &#9776; <!-- Unicode for hamburger icon -->
+    <div class="hero">
+        <nav>
+            <h2 class="logo"> Portfo<span>lio</span></h2>
+            <div class="menu-toggle" id="menu-toggle" >
+            <input type="checkbox" class="menu-toggle" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger" aria-label="Toggle navigation"> 
+           <span></span>
+           <span></span>
+           <span></span>
+    </label>
+                &#9776; <!-- Unicode for hamburger icon -->
+            </div>
+            <ul id="nav-links">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#service">SERVICES</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <div class="round-frame">
+                <img src="Pic/mypic.jpg" alt="profile picture">
+            </div>
         </div>
-        <ul id="nav-links">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#service">SERVICES</a></li>
-            <li><a href="#skills">SKILLS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-        </ul>
-    </nav>
-    
-    <div class="container" >
-    <div class="round-frame">
-        <img src="Pic/mypic.jpg" alt="profile picture" >
+        <div class="content">
+            <h4> Hello, my name is</h4>
+            <h1> Anelisiwe<span> Mtati</span> </h1>
+            <h3> I'm a Web Developer</h3>
+            <a class="button-one" href="MyCV.pdf" download="MyCV.pdf" class="download-link"> Download CV</a>
+        </div>
     </div>
-</div>
-    <div class="content">
-        <h4> Hello, my name is</h4>
-        <h1> Anelisiwe<span> Mtati</span> </h1>
-        <h3> I'm a Web Developer</h3>  
-        <a class="button-one" href="MyCV.pdf" download="MyCV.pdf" class="download-link"> Download CV</a>
-    </div>
-</div>
 
     <section class="about">
         <section id="about">
-        <div class="main">
-            <img src="Pic/OIP.jfif">
-            <div class="about-text">
-                <h2> About Me</h2>
-                <h5><span>Web</span> D<span>e</span>veloper</h5>
-                <p> Enthusiastic Junior Developer with a passion for coding and a strong foundation in web development technologies,
-                    including HTML, CSS, and JavaScript.Proficient in collaborating with teams to create user-friendly applications <br>
-                    and eager to learn new programming languages and frameworks. Demonstrates a problem-solving mindset and a commitment
-                    to delivering high-quality results.Looking to contribute to innovative projects while gaining practical experience
-                    in a dynamic development environment.</p>
+            <div class="main">
+                <img src="Pic/OIP.jfif">
+                <div class="about-text">
+                    <h2> About Me</h2>
+                    <h5><span>Web</span> D<span>e</span>veloper</h5>
+                    <p> Enthusiastic Junior Developer with a passion for coding and a strong foundation in web
+                        development technologies,
+                        including HTML, CSS, and JavaScript.Proficient in collaborating with teams to create
+                        user-friendly applications <br>
+                        and eager to learn new programming languages and frameworks. Demonstrates a problem-solving
+                        mindset and a commitment
+                        to delivering high-quality results.Looking to contribute to innovative projects while gaining
+                        practical experience
+                        in a dynamic development environment.</p>
+                </div>
             </div>
-        </div>
+        </section>
     </section>
- </section>
     <div class="service">
         <section id="service">
-        <div class="title">
-            <h2>My services</h2>
-        </div>
-        <div class="box">
-            <div class="card">
-             <i class="fa-solid fa-bars"></i>
-             <h5> Frontend Development</h5>
-             <div class="pra">
-             <p>Building and maintaining the user interface of websites and application, by writting basic HTML,CSS and JavaScript code, Implimenting responsive design using frameworks like Bootstrap, dubugging and fixing minor UI issues.</p>
-                </p>
-             </div>
+            <div class="title">
+                <h2>My services</h2>
             </div>
             <div class="box">
                 <div class="card">
-                <i class="fa-solid fa-user"></i>
-                 <h5> Debugging and Testing</h5>
-                 <div class="pra">
-                    <p>Ensuring the application runs smoothly by identifying and fixing bugs, using browser developer tools to debug frontend issues, whritting and executing unit tests,Perfoming manual testing and documenting issues. </p>
-        </div>
-    </div>
-    <div class="box">
-        <div class="card">
-            <i class="fa-solid fa-database"></i>
-         <h5> Database Management</h5>
-         <div class="pra">
-            <p>Handling database operations, Assisting in database design and schema creation,perform routine database backups and recovery tasks,Ensure data integrity and security through checks and updates. </p>
-         </div>
-            </div>
-            </div>
-            </div>
-      </div>
-    </div>
-</section>
-<div class="skills_section">
-    <div class="skills_head">
-        <section id="skills"></section> 
-        <h2>My <span>Skills</span></h2><br>
-        <p>Here are my skills to represent my Expertise</p>
-    </div>
-
-    <div class="skills_main">
-        <div class="skill_bar">
-            <div class="info">
-                <p>HTML</p>
-                <P>75%</P>
-            </div>
-            <div class="bar">
-                <span class="html"></span>
-            </div>
-        </div>
-        <div class="skill_bar">
-            <div class="info">
-                <p>CSS</p>
-                <P>70%</P>
-            </div>
-            <div class="bar">
-                <span class="css"></span>
-            </div>
-        </div>
-        <div class="skill_bar">
-            <div class="info">
-                <p>MySQL</p>
-                <P>65%</P>
-            </div>
-            <div class="bar">
-                <span class="sql"></span>
-            </div>
-        </div>
-        <div class="skill_bar">
-            <div class="info">
-                <p>Java Script</p>
-                <P>50%</P>
-            </div>
-            <div class="bar">
-                <span class="js"></span>
-            </div>
-            </div>
-        </div>
-    </div>
-</div>
-           <div class="contact-me">
-            <section id="contact"></section>
-            <div class="contact-container">
-                <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
-                    <div class="contact-left-title">
-                        <h2>Get in touch</h2>
-                        <hr>
+                    <i class="fa-solid fa-bars"></i>
+                    <h5> Frontend Development</h5>
+                    <div class="pra">
+                        <p>Building and maintaining the user interface of websites and application, by writting basic
+                            HTML,CSS and JavaScript code, Implimenting responsive design using frameworks like
+                            Bootstrap, dubugging and fixing minor UI issues.</p>
+                        </p>
                     </div>
-<input type="hidden" name="access_key" value="6b4469a3-90cf-43c0-9c1d-dd3e804e2c9f">
-<input type="text" name="name" placeholder="Your name" class="contact-inputs" required>
-<input type="email" name="email" placeholder="Your Email" class="contact-inputs" required> 
-<textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
-<button type="submit" >Submit ></button>
-                </form>
-                <div class="contact-right">
-                    <img src="Pic/message Icon.png"  width="300" height="200" alt="" > 
+                </div>
+                <div class="box">
+                    <div class="card">
+                        <i class="fa-solid fa-user"></i>
+                        <h5> Debugging and Testing</h5>
+                        <div class="pra">
+                            <p>Ensuring the application runs smoothly by identifying and fixing bugs, using browser
+                                developer tools to debug frontend issues, whritting and executing unit tests,Perfoming
+                                manual testing and documenting issues. </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="card">
+                            <i class="fa-solid fa-database"></i>
+                            <h5> Database Management</h5>
+                            <div class="pra">
+                                <p>Handling database operations, Assisting in database design and schema
+                                    creation,perform routine database backups and recovery tasks,Ensure data integrity
+                                    and security through checks and updates. </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div> 
-        <footer>  
+    </div>
+    </section>
+    <div class="skills_section">
+        <div class="skills_head">
+            <section id="skills"></section>
+            <h2>My <span>Skills</span></h2><br>
+            <p>Here are my skills to represent my Expertise</p>
+        </div>
+
+        <div class="skills_main">
+            <div class="skill_bar">
+                <div class="info">
+                    <p>HTML</p>
+                    <P>75%</P>
+                </div>
+                <div class="bar">
+                    <span class="html"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>CSS</p>
+                    <P>70%</P>
+                </div>
+                <div class="bar">
+                    <span class="css"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>MySQL</p>
+                    <P>65%</P>
+                </div>
+                <div class="bar">
+                    <span class="sql"></span>
+                </div>
+            </div>
+            <div class="skill_bar">
+                <div class="info">
+                    <p>Java Script</p>
+                    <P>50%</P>
+                </div>
+                <div class="bar">
+                    <span class="js"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="contact-me">
+        <section id="contact"></section>
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Get in touch</h2>
+                    <hr>
+                </div>
+                <input type="hidden" name="access_key" value="6b4469a3-90cf-43c0-9c1d-dd3e804e2c9f">
+                <input type="text" name="name" placeholder="Your name" class="contact-inputs" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit">Submit ></button>
+            </form>
+            <div class="contact-right">
+                <img src="Pic/message Icon.png" width="300" height="200" alt="">
+            </div>
+        </div>
+    </div>
+    <footer>
         <div class="footerContainer">
             <div class="socialicons">
-                <a href="https://www.linkedin.com/in/anelisiwe-mtati-a25167194/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/anelisiwe-mtati-a25167194/"><i
+                        class="fa-brands fa-linkedin"></i></a>
                 <a href="https://github.com/Anelisiw3/My-Portfolio"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.microsoft.com/en-za/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook"><i class="fa-solid fa-envelope"></i></a>
+                <a
+                    href="https://www.microsoft.com/en-za/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook"><i
+                        class="fa-solid fa-envelope"></i></a>
                 <a href=""><i class="fa-solid fa-phone"></i></a>
             </div>
             <div class="footernav">
                 <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#service">SERVICES</a></li>
-            <li><a href="#skills">SKILLS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#service">SERVICES</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </div>
 
             <div class="chatbot-icon" id="chatbotIcon">
                 <i class="fa-solid fa-robot"></i>
             </div>
-            
+
             <div class="chatbot" id="chatbot">
                 <header>
                     <h2>Chatbot</h2>
                     <button id="minimizeBtn">–</button>
                 </header>
-              <ul class="chatbox">
+                <ul class="chatbox">
                     <li class="chat incoming">
                         <p>Hi there <br> How can I help you today?</p>
-                    </li> 
+                    </li>
                 </ul>
                 <div class="input-area">
                     <input type="text" placeholder="Type your message..." id="userInput" />
@@ -193,17 +214,12 @@
             </div>
 
             <script src="script.js"></script>
-     
+
         </div>
         <div class="footerbutton">
             <p> Copyright &copy; 2024 Designed by <span class="designer">Anelisiwe Mtati</span>
-           </div>
+        </div>
     </footer>
-    <input type="checkbox" class="menu-toggle" id="menu-toggle">
-        <label for="menu-toggle" class="hamburger" aria-label="Toggle navigation">
-            <span></span>
-            <span></span>
-            <span></span>
-        </label>
-    </body>
+    
+</body>
 </html>
